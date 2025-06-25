@@ -1,8 +1,8 @@
 const Section1 = () => {
   return (
     <section className="sections">
-      <div className="sections-text">
-        <p>This is section 1. This is section 1</p>
+      <div className="sections-content">
+        <p>This is section 1. Section 1 only have 1 line of text</p>
       </div>
     </section>
   );

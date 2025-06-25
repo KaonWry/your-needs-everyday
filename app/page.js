@@ -32,7 +32,7 @@ export default function Home() {
           </div>
           {index < sections.length - 1 && (
             <div
-              className={`h-[25vh] bg-gradient-to-b ${item.from} ${item.to}`}
+              className={`h-[50vh] bg-gradient-to-b ${item.from} ${item.to}`}
             ></div>
           )}
         </div>
