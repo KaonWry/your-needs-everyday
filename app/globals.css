@@ -1,9 +1,13 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 .sections {
-    @apply text-4xl mx-auto w-[100vw] h-[100vh]
+  @apply text-4xl mx-auto w-[100vw] h-[100vh];
 }
 
-.sections-text{
-    @apply h-[100%] flex items-center justify-center
+.sections-text {
+  @apply h-[100%] flex items-center justify-center;
+}
+
+.footer {
+  @apply flex justify-between py-5 items-center px-5 shadow-[0_-10px_20px_rgba(0,0,0,0.2)];
 }

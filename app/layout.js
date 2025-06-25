@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Montserrat } from "next/font/google";
+import { Montserrat, Roboto } from "next/font/google";
 
 export const metadata = {
   title: "Your Needs Everyday",
@@ -8,13 +8,20 @@ export const metadata = {
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  variable: "--font-montserrat",
+  variable: "--font-mont",
+});
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  variable: "--font-roboto",
 });
 
 export default function RootLayout({ children }) {
   return (
     <html lang="id">
-      <body className={`antialiased ${montserrat.className}`}>{children}</body>
+      <body className={`antialiased ${montserrat.variable} ${roboto.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

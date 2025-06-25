@@ -25,7 +25,11 @@ export default function Home() {
     <div className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
       {sections.map((item, index) => (
         <div key={index}>
-          <div className={`snap-start ${item.bg}`}>{item.component}</div>
+          <div
+            className={`snap-start font-[family-name:var(--font-mont)] ${item.bg}`}
+          >
+            {item.component}
+          </div>
           {index < sections.length - 1 && (
             <div
               className={`h-[25vh] bg-gradient-to-b ${item.from} ${item.to}`}
@@ -33,7 +37,7 @@ export default function Home() {
           )}
         </div>
       ))}
-      <div className="snap-start">
+      <div className="snap-start font-[family-name:var(--font-roboto)]">
         <Footer />
       </div>
     </div>
