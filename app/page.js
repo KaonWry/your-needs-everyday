@@ -6,25 +6,25 @@ import "./globals.css";
 export default function Home() {
   const sections = [
     {
-      bg: "bg-amber-400",
-      from: "from-amber-400",
+      bg: "bg-amber-300",
+      from: "from-amber-300",
       to: "to-emerald-300",
       component: <Section1 />,
     },
     {
       bg: "bg-emerald-300",
       from: "from-emerald-300",
-      to: "to-fuchsia-400",
+      to: "to-fuchsia-300",
       component: <Section2 />,
     },
-    { bg: "bg-fuchsia-400", component: <Section3 /> },
+    { bg: "bg-fuchsia-300", component: <Section3 /> },
   ];
 
   return (
-    <>
+    <div className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
       {sections.map((item, index) => (
         <div key={index}>
-          <div className={item.bg}>{item.component}</div>
+          <div className={`snap-start ${item.bg}`}>{item.component}</div>
 
           {index < sections.length - 1 && (
             <div
@@ -33,6 +33,6 @@ export default function Home() {
           )}
         </div>
       ))}
-    </>
+    </div>
   );
 }
