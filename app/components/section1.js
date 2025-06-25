@@ -1,6 +1,6 @@
 const Section1 = () => {
   return (
-    <section className="bg-amber-400 sections">
+    <section className="sections">
       <div className="sections-text">
         <p>This is section 1. This is section 1</p>
       </div>

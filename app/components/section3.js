@@ -1,6 +1,6 @@
 const Section3 = () => {
   return (
-    <section className="bg-fuchsia-400 sections">
+    <section className="sections">
       <div className="sections-text">
         <p>This is section 3. This is section 3</p>
       </div>
