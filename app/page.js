@@ -1,6 +1,7 @@
 import Section1 from "./components/section1";
 import Section2 from "./components/section2";
 import Section3 from "./components/section3";
+import Footer from "./components/footer";
 import "./globals.css";
 
 export default function Home() {
@@ -25,14 +26,16 @@ export default function Home() {
       {sections.map((item, index) => (
         <div key={index}>
           <div className={`snap-start ${item.bg}`}>{item.component}</div>
-
           {index < sections.length - 1 && (
             <div
-              className={`h-[10vh] bg-gradient-to-b ${item.from} ${item.to}`}
+              className={`h-[25vh] bg-gradient-to-b ${item.from} ${item.to}`}
             ></div>
           )}
         </div>
       ))}
+      <div className="snap-start">
+        <Footer />
+      </div>
     </div>
   );
 }
