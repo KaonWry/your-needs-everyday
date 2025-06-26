@@ -1,11 +1,31 @@
 @import "tailwindcss";
+@tailwind utilities;
+
+@layer utilities {
+  .font-mont {
+    font-family: var(--font-mont);
+  }
+  .font-roboto {
+    font-family: var(--font-roboto);
+  }
+  .font-cabin {
+    font-family: var(--font-cabin);
+  }
+  .font-caveat {
+    font-family: var(--font-caveat);
+  }
+  .font-tangerine {
+    font-family: var(--font-tangerine);
+    font-size: 3.5rem;
+  }
+}
 
 .sections {
-  @apply text-4xl mx-auto w-[100vw] h-[100vh];
+  @apply text-4xl mx-auto w-[100vw] h-[100vh] px-3;
 }
 
 .sections-content {
-  @apply h-full flex flex-col items-center justify-center gap-3;
+  @apply h-full flex flex-col items-center justify-center text-center gap-3;
 }
 
 .footer {
