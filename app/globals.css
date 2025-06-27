@@ -2,12 +2,6 @@
 @tailwind utilities;
 
 @layer utilities {
-  .font-mont {
-    font-family: var(--font-mont);
-  }
-  .font-roboto {
-    font-family: var(--font-roboto);
-  }
   .font-cabin {
     font-family: var(--font-cabin);
   }
