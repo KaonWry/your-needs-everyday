@@ -40,22 +40,20 @@ export default function Home() {
   ];
 
   return (
-    <div className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
-      {sections.map((item, index) => (
-        <div key={index}>
-          <div className={`snap-start font-cabin ${item.bg}`}>
-            {item.component}
-          </div>
-          {index < sections.length - 1 && (
-            <div
-              className={`h-[50vh] bg-gradient-to-b ${item.from} ${item.to}`}
-            ></div>
-          )}
-        </div>
-      ))}
-      <div className="snap-start font-caveat">
-        <Footer />
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      <div className="w-full">
+        {sections.map((section, index) => (
+          <section
+            key={index}
+            className={`sections ${section.bg} ${section.from} ${section.to}`}
+          >
+            <div className="sections-content">
+              {section.component}
+            </div>
+          </section>
+        ))}
       </div>
-    </div>
+      <Footer />
+    </main>
   );
 }
