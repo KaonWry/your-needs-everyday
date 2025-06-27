@@ -4,7 +4,9 @@ const Section2 = () => {
   return (
     <section className="sections">
       <div className="sections-content">
-        <p>This is section 2. Section 2 have image.</p>
+        <p>Apakah kamu merasa kurang? Apakah kamu pernah merasa ada yang salah pada dirimu?</p>
+        <p>Atau, kamu memiliki <span className="font-tangerine">penyesalan</span>?</p>
+        <p>Di sini mari kita coba gali lebih dalam apa yang sebenarnya</p>
         <Image
           className=""
           src="/cup.png"
