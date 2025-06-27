@@ -2,11 +2,13 @@ const SectionOutput = ({ inputValue }) => {
   return (
     <section className="sections">
       <div className="sections-content">
-        {inputValue && (
+        This is section 5. Section 5 displays the input value. <br />
+        {inputValue ? (
           <p>
-            This is section 5. Section 5 displays the input value. <br />
             Hi <span className="font-bold">{inputValue}</span> !
           </p>
+        ) : (
+          <p>No input provided.</p>
         )}
       </div>
     </section>
