@@ -16,7 +16,7 @@ export default function Home() {
       bg: "bg-amber-300",
       from: "from-amber-300",
       to: "to-emerald-300",
-      component: <Section1 />,
+      component: <Section1 inputValue={inputValue} />,
     },
     {
       bg: "bg-emerald-300",
@@ -25,13 +25,15 @@ export default function Home() {
       component: <Section2 />,
     },
     {
-      component: <SectionInput inputValue={inputValue} setInputValue={setInputValue} />,
+      component: (
+        <SectionInput inputValue={inputValue} setInputValue={setInputValue} />
+      ),
       bg: "bg-blue-300",
       from: "from-blue-300",
       to: "to-gray-300",
     },
     {
-      component : <SectionOutput inputValue={inputValue} />,
+      component: <SectionOutput inputValue={inputValue} />,
       bg: "bg-gray-300",
       from: "from-gray-300",
       to: "to-fuchsia-300",
@@ -47,9 +49,7 @@ export default function Home() {
             key={index}
             className={`sections ${section.bg} ${section.from} ${section.to}`}
           >
-            <div className="sections-content">
-              {section.component}
-            </div>
+            <div className="sections-content">{section.component}</div>
           </section>
         ))}
       </div>
