@@ -38,5 +38,4 @@ export default function Home() {
     },
     { bg: "bg-fuchsia-300", component: <Section3 /> },
   ];
-
 }
