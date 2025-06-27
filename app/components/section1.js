@@ -1,8 +1,9 @@
-const Section1 = () => {
+const Section1 = ({inputValue}) => {
   return (
     <section className="sections">
       <div className="sections-content">
-        <p>This is section 1. Section 1 only have 1 line of text</p>
+        <p>Halo <span className="font-bold">{inputValue}</span></p>
+        <p>Mari kita belajar sesuatu, yuk !!</p>
       </div>
     </section>
   );
