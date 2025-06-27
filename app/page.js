@@ -38,4 +38,22 @@ export default function Home() {
     },
     { bg: "bg-fuchsia-300", component: <Section3 /> },
   ];
+
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      <div className="w-full">
+        {sections.map((section, index) => (
+          <section
+            key={index}
+            className={`sections ${section.bg} ${section.from} ${section.to}`}
+          >
+            <div className="sections-content">
+              {section.component}
+            </div>
+          </section>
+        ))}
+      </div>
+      <Footer />
+    </main>
+  );
 }
