@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Needs Everyday</title>
+</head>
+<body>
+    <title>Your Needs Everyday</title>
+    <div id="nama"></div>
+    <script>
+    fetch('name.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('nama').innerHTML = data;
+        })
+        .catch(error => {
+            document.getElementById('nama').textContent = 'Gagal memuat nama.';
+        });
+    </script>
+</body>
+</html>
