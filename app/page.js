@@ -1,10 +1,10 @@
 "use client";
 import { useState } from "react";
-import Section1 from "./components/section1";
-import Section2 from "./components/section2";
-import Section3 from "./components/section3";
-import SectionInput from "./components/sectionInput";
-import SectionOutput from "./components/sectionOutput";
+import Section1 from "./sections/section1";
+import Section2 from "./sections/section2";
+import Section3 from "./sections/section3";
+import SectionInput from "./sections/sectionInput";
+import SectionOutput from "./sections/sectionOutput";
 import Footer from "./components/footer";
 import "./globals.css";
 
@@ -25,13 +25,15 @@ export default function Home() {
       component: <Section2 />,
     },
     {
-      component: <SectionInput inputValue={inputValue} setInputValue={setInputValue} />,
+      component: (
+        <SectionInput inputValue={inputValue} setInputValue={setInputValue} />
+      ),
       bg: "bg-blue-300",
       from: "from-blue-300",
       to: "to-gray-300",
     },
     {
-      component : <SectionOutput inputValue={inputValue} />,
+      component: <SectionOutput inputValue={inputValue} />,
       bg: "bg-gray-300",
       from: "from-gray-300",
       to: "to-fuchsia-300",
