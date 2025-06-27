@@ -3,6 +3,7 @@ import { useState } from "react";
 import Section1 from "./components/section1";
 import Section2 from "./components/section2";
 import Section3 from "./components/section3";
+import Section4 from "./components/section4";
 import SectionInput from "./components/sectionInput";
 import SectionOutput from "./components/sectionOutput";
 import Footer from "./components/footer";
@@ -24,6 +25,13 @@ export default function Home() {
       to: "to-blue-300",
       component: <Section2 />,
     },
+    { bg: "bg-fuchsia-300", component: <Section3 /> },
+    {
+      bg: "bg-maroon-300",
+      from: "from-maroon-300",
+      to: "to-black-300",
+      component: <Section4 />,
+    },
     {
       component: (
         <SectionInput inputValue={inputValue} setInputValue={setInputValue} />
@@ -38,7 +46,6 @@ export default function Home() {
       from: "from-gray-300",
       to: "to-fuchsia-300",
     },
-    { bg: "bg-fuchsia-300", component: <Section3 /> },
   ];
 
   return (
