@@ -1,60 +1,66 @@
 "use client";
 import { useState } from "react";
-import Section1 from "./components/section1";
-// import Section2 from "./components/section2";
-// import Section3 from "./components/section3";
-import Section4 from "./components/section4";
-import SectionInput from "./components/sectionInput";
-import SectionOutput from "./components/sectionOutput";
-import Footer from "./components/footer";
+import Image from "next/image";
 import RandomFontText from "./components/randomfonts";
+import Footer from "./components/footer";
 import "./globals.css";
 
 export default function Home() {
   const [inputValue, setInputValue] = useState("");
 
-  const sections = [
-    {
-      component: <RandomFontText />,
-      bg: "bg-[#F5ECD5]",
-    },
-    {
-      component: <Section1 inputValue={inputValue} />,
-      bg: "bg-[#F5ECD5]",
-    },  
-    // {
-    //   component: <Section2 />,
-    //   bg: "bg-[#f5ecd5]",
-    // },
-    // {
-    //   component: <Section3 />,
-    //   bg: "bg-[#f5ecd5]",
-    // },
-    {
-      component: <Section4 />,
-      bg: "bg-[#f5ecd5]",
-    },
-    {
-      component: (
-        <SectionInput inputValue={inputValue} setInputValue={setInputValue} />
-      ),
-      bg: "bg-blue-300",
-    },
-    {
-      component: <SectionOutput inputValue={inputValue} />,
-      bg: "bg-gray-300",
-    },
-  ];
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <div className="w-full">
-        {sections.map((section, index) => (
-          <section key={index}>
-            <div className={`${section.bg} font-cabin`}>{section.component}</div>
-          </section>
-        ))}
-      </div>
+      <section className="sections h-screen bg-[#F5ECD5]">
+        <div className="sections-content">
+          <p>
+            Hai <span className="font-bold">{inputValue}</span>
+          </p>
+          <p>apa kabar?</p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#F5ECD5]">
+        <div className="sections-content">
+          <p>Apakah kamu merasa ada yang kurang dalam hidupmu?</p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#F5ECD5]">
+        <div className="sections-content">
+          <p>
+            Atau kamu merasa ada yang salah dalam
+            <br />
+          </p>
+        </div>
+      </section>
+      <section className="sections h-[200vh] bg-[#222222] text-white">
+        <div className="sections-content">
+          <RandomFontText text={`Hidupmu`} />
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#F5ECD5]">
+        <div className="sections-content">
+          <p>Di sini, kamu akan mempelajari sesuatu yang baru</p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#F5ECD5]">
+        <div className="sections-content">
+          <p>Sesuatu yang akan kamu syukuri</p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#F5ECD5]">
+        <div className="sections-content">
+          <p>Sesuatu yang tidak akan kamu sesali</p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#F5ECD5]">
+        <div className="sections-content">
+          <p>Pertama, ini adalah kamu</p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#F5ECD5]">
+        <div className="sections-content">
+          <Image src="/1.png" alt="You" width={1000} height={1000} />
+        </div>
+      </section>
       <Footer />
     </main>
   );
