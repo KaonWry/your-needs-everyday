@@ -15,11 +15,11 @@ export default function Home() {
   const sections = [
     {
       component: <Section1 inputValue={inputValue} />,
-      bg: "bg-amber-300",
+      bg: "bg-[F5ECD5]-300",
     },
     {
       component: <Section2 />,
-      bg: "bg-emerald-300",
+      bg: "bg-[F5ECD5]-300",
     },
     {
       component: <Section3 />,
