@@ -73,7 +73,7 @@ export default function Home() {
       </section>
       <section className="sections h-screen bg-[#F5ECD5]">
         <div className="sections-content">
-          <Image src="/1.png" alt="You" width={1000} height={1000} />
+          <Image src="/1.png" alt="You" width={500} height={500} />
         </div>
       </section>
       <Footer />
