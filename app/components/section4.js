@@ -1,12 +1,10 @@
 const Section4 = () => {
   return (
-    <section className="sections">
+    <section className="sections-bold">
       <div className="sections-content">
         <p>
-          Kamu adalah cangkir yang siap diisi, kamu adalah cangkir yang siap
-          untuk belajar, kamu adalah cangkir yang memerlukan sesuatu
+          H̴̢̨̧̛̠̘͖̠͇̤̝̜̲͈͚̜̘̪̩̭̭̯̯͍̦͕̦̳̙̥̮̪̳̠̪̣̯͊̅̌̆͛̽̃̽̏̆̎̍̄̌̀̿͂̄̒̈́͆͛͊́̑̌̾͑̚̚̕̚̚͘͝ͅI̶̢̡̢̛̛̳̩̳̗̩̩̬̦͕̙͎͉̺̫̙̲̪̩̘͙̝̯̞̟̜̟͎̺̞͍̱̪͚̝͓̩̼̯̋̒̊̄̾́͊̕͜D̷̡̨̧̡̛͈͚̙͖̳̩̼̩̰̟̳̭͔̩̘̣̬͙̱͖̻̹̼̱̤̰͎̲̝̬́͐̅͊̀͋̔̈́̄̑̇̈́͗̌͊̊̿̀̀͐̄͆̑̌͋̅̈́́̕̕͘͠Ų̶̨̧̡̨̧̡̢̧̛͚̺̝͎̙͕̺͓͍̫͚̣̺͈̠͇̱̰͇͔͙̥̮̹̳̹̰̖̱̱̤̞̘͙͙̳̍͐͛̇̃͂͐͗̌̾̕͜͠͝P̵̡̡̧̢̨̫̻̤̹͔̜̦̯̳̞̼̟̥̹̘͈̺͈̫̦̳̣̖̗͙͙͇̳̩͊̅̅̓̂́̿̀̆̌͒̿͋̌̄̄̀̚̚͝ͅM̷̛͉̩͙̯͎̻̹̳̏͒̈̃̅͒̑̎̀̽̐̿͛̋̉́̏̈́̀̂͒̄̑͆̐̎̅̑̏̂̅͊̏̿́̈́̉̃̅̚͝͝͝͝͝Ų̶̡͇͙͔͕̜͖͖͚̩̰͓̼̥̱̦͉̳̘͎̱̮͕̪͖͙̹̟͉̖͎̫̲̪͎̻̾̀͜͝?̶͙̯̱̳̯̥͇̦̪̓̆͆̀̄͐̾̽̐́̌̀̀̈́̚͘͜͠͝͠͠
         </p>
-        <p>Coba liat dengan mata kecilmu apa yang akan terlihat di sana</p>
       </div>
     </section>
   );

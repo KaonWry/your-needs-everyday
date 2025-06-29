@@ -16,18 +16,18 @@ export default function Home() {
     {
       component: <Section1 inputValue={inputValue} />,
       bg: "bg-[#F5ECD5]",
-    },
+    },  
     {
       component: <Section2 />,
-      bg: "bg-[#F5ECD5]",
+      bg: "bg-[#f5ecd5]",
     },
     {
       component: <Section3 />,
-      bg: "bg-fuchsia-300",
+      bg: "bg-[#f5ecd5]",
     },
     {
       component: <Section4 />,
-      bg: "bg-maroon-300",
+      bg: "bg-[#f5ecd5]",
     },
     {
       component: (

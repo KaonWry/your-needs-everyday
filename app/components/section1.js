@@ -3,9 +3,9 @@ const Section1 = ({ inputValue }) => {
     <section className="sections">
       <div className="sections-content">
         <p>
-          Halo <span className="font-bold">{inputValue}</span>
+          Hai <span className="font-bold">{inputValue}</span>
         </p>
-        <p>Mari kita belajar sesuatu, yuk !!</p>
+        <p>apa kabar?</p> 
       </div>
     </section>
   );

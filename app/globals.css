@@ -18,6 +18,9 @@
   @apply text-4xl mx-auto w-[100vw] h-[100vh] px-3;
 }
 
+.sections-bold {
+  @apply text-5xl mx-auto w-[100vw] min-h-[200vh] px-3 bg-[#f5ecd5] flex items-center justify-center;
+}
 .sections-content {
   @apply h-full flex flex-col items-center justify-center text-center gap-3;
 }
