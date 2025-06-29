@@ -26,18 +26,18 @@ const play = Play({
   subsets: ["latin"],
   weight: "400",
   variable: "--font-play",
-})
+});
 
 const noto = Noto_Sans_Javanese({
   subsets: ["javanese"],
   variable: "--font-noto",
-})
+});
 
-const flower=Indie_Flower({
+const flower = Indie_Flower({
   subsets: ["latin"],
-  variable: "--font-flower",
   weight: "400",
-})
+  variable: "--font-flower",
+});
 
 export default function RootLayout({ children }) {
   return (

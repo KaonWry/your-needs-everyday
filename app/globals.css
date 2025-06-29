@@ -20,18 +20,11 @@
 }
 
 .sections {
-  @apply text-4xl mx-auto w-full  px-3;
+  @apply text-4xl mx-auto w-full px-3;
 }
 
-.sections-bold {
-  @apply text-5xl mx-auto w-full h-[200vh] px-3 flex items-center justify-center;
-}
 .sections-content {
   @apply h-full w-full flex flex-col items-center justify-center text-center gap-3;
-}
-
-.image-container {
-  @apply flex items-center justify-center h-[100vh] text-center;
 }
 
 .footer {
