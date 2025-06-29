@@ -54,10 +54,10 @@ const Section1 = ({ inputValue }) => {
     <section className="image-container">
       <div className="sections-content">
         <Image
-          src="/cup.png"
+          src="/1.png"
           alt="You"
-          width={500}
-          height={500}
+          width={1000}
+          height={1000}
           
         />
       </div>
