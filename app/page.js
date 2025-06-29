@@ -14,37 +14,30 @@ export default function Home() {
 
   const sections = [
     {
-      bg: "bg-amber-300",
-      from: "from-amber-300",
-      to: "to-emerald-300",
       component: <Section1 inputValue={inputValue} />,
+      bg: "bg-amber-300",
     },
     {
-      bg: "bg-emerald-300",
-      from: "from-emerald-300",
-      to: "to-blue-300",
       component: <Section2 />,
+      bg: "bg-emerald-300",
     },
-    { bg: "bg-fuchsia-300", component: <Section3 /> },
     {
-      bg: "bg-maroon-300",
-      from: "from-maroon-300",
-      to: "to-black-300",
+      component: <Section3 />,
+      bg: "bg-fuchsia-300",
+    },
+    {
       component: <Section4 />,
+      bg: "bg-maroon-300",
     },
     {
       component: (
         <SectionInput inputValue={inputValue} setInputValue={setInputValue} />
       ),
       bg: "bg-blue-300",
-      from: "from-blue-300",
-      to: "to-gray-300",
     },
     {
       component: <SectionOutput inputValue={inputValue} />,
       bg: "bg-gray-300",
-      from: "from-gray-300",
-      to: "to-fuchsia-300",
     },
   ];
 
@@ -52,11 +45,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div className="w-full">
         {sections.map((section, index) => (
-          <section
-            key={index}
-            className={`sections ${section.bg} ${section.from} ${section.to}`}
-          >
-            <div className="sections-content">{section.component}</div>
+          <section key={index}>
+            <div className={`${section.bg} font-cabin`}>{section.component}</div>
           </section>
         ))}
       </div>
