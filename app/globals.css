@@ -10,7 +10,12 @@
   }
   .font-tangerine {
     font-family: var(--font-tangerine);
-    font-size: 3.5rem;
+  }
+  .font-play {
+    font-family: var(--font-play);
+  }
+  .font-noto {
+    font-family: var(--font-noto);
   }
 }
 
@@ -19,12 +24,27 @@
 }
 
 .sections-bold {
-  @apply text-5xl mx-auto w-[100vw] min-h-[200vh] px-3 bg-[#f5ecd5] flex items-center justify-center;
+  @apply text-5xl mx-auto w-[100vw] h-[200vh] px-3 flex items-center justify-center ;
 }
 .sections-content {
   @apply h-full flex flex-col items-center justify-center text-center gap-3;
 }
 
+.image-container {
+  @apply flex items-center justify-center h-[100vh] text-center;
+}
+
 .footer {
   @apply flex justify-between py-2 items-center px-4 shadow-[0_-10px_20px_rgba(0,0,0,0.2)] w-full;
+}
+
+.text {
+  font-size: 2rem;
+  text-align: center;
+  transition: font-family 0.5s ease-in-out, color 0.5s ease-in-out;
+  color: #333;
+}
+
+.text:hover {
+  color: #ff6347; 
 }

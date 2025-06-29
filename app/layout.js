@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Cabin, Caveat, Tangerine } from "next/font/google";
+import { Cabin, Caveat, Tangerine, Play, Noto_Sans_Javanese, Indie_Flower } from "next/font/google";
 
 export const metadata = {
   title: "Your Needs Everyday",
@@ -21,6 +21,23 @@ const tangerine = Tangerine({
   weight: "400",
   variable: "--font-tangerine",
 });
+
+const play = Play({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-play",
+})
+
+const noto = Noto_Sans_Javanese({
+  subsets: ["javanese"],
+  variable: "--font-noto",
+})
+
+const flower=Indie_Flower({
+  subsets: ["latin"],
+  variable: "--font-flower",
+  weight: "400",
+})
 
 export default function RootLayout({ children }) {
   return (

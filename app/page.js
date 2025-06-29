@@ -1,12 +1,13 @@
 "use client";
 import { useState } from "react";
 import Section1 from "./components/section1";
-import Section2 from "./components/section2";
-import Section3 from "./components/section3";
+// import Section2 from "./components/section2";
+// import Section3 from "./components/section3";
 import Section4 from "./components/section4";
 import SectionInput from "./components/sectionInput";
 import SectionOutput from "./components/sectionOutput";
 import Footer from "./components/footer";
+import RandomFontText from "./components/randomfonts";
 import "./globals.css";
 
 export default function Home() {
@@ -14,17 +15,21 @@ export default function Home() {
 
   const sections = [
     {
+      component: <RandomFontText />,
+      bg: "bg-[#F5ECD5]",
+    },
+    {
       component: <Section1 inputValue={inputValue} />,
       bg: "bg-[#F5ECD5]",
     },  
-    {
-      component: <Section2 />,
-      bg: "bg-[#f5ecd5]",
-    },
-    {
-      component: <Section3 />,
-      bg: "bg-[#f5ecd5]",
-    },
+    // {
+    //   component: <Section2 />,
+    //   bg: "bg-[#f5ecd5]",
+    // },
+    // {
+    //   component: <Section3 />,
+    //   bg: "bg-[#f5ecd5]",
+    // },
     {
       component: <Section4 />,
       bg: "bg-[#f5ecd5]",
