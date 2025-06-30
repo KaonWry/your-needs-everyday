@@ -1,0 +1,112 @@
+/* footer.css (Perbaikan Layout) */
+/* Ganti CSS footer Anda dengan kode ini */
+
+/* Menggunakan variabel CSS untuk warna agar mudah diubah */
+:root {
+  --footer-bg-color: #1c1c1c; /* Warna latar belakang gelap */
+  --footer-text-color: #b0b0b0; /* Warna teks abu-abu terang */
+  --footer-link-hover-color: #ffffff; /* Warna ikon saat disentuh (hover) */
+  --footer-inspiration-color: #888888; /* Warna teks inspirasi yang lebih redup */
+}
+
+/* Style utama untuk tag <footer> */
+.site-footer {
+  background-color: var(--footer-bg-color);
+  color: var(--footer-text-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  padding: 2rem 1.5rem; /* Padding atas/bawah dan kiri/kanan */
+  border-top: 1px solid #333;
+}
+
+/* Kontainer utama di dalam footer untuk mengatur layout */
+.footer-container {
+  max-width: 1200px; /* Lebar maksimum konten */
+  margin: 0 auto; /* Pusatkan kontainer */
+  display: flex;
+  justify-content: space-between; /* Memberi jarak antara teks dan ikon */
+  align-items: center; /* Menyelaraskan item secara vertikal */
+  flex-wrap: wrap; /* Izinkan item untuk turun baris di layar kecil */
+  gap: 1rem; /* Jarak antar elemen jika terjadi wrap */
+}
+
+/* Styling untuk blok teks di sebelah kiri */
+.footer-text {
+  text-align: left;
+}
+
+.footer-text p {
+  margin: 0.25rem 0; /* Mengurangi jarak vertikal antar paragraf */
+  font-size: 0.875rem; /* Ukuran font sedikit lebih kecil */
+  line-height: 1.5;
+}
+
+/* Teks 'Inspired by' dibuat sedikit lebih redup */
+.inspiration-text {
+    color: var(--footer-inspiration-color);
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.copyright-text {
+    margin-top: 0.5rem;
+}
+
+/* Styling untuk blok ikon sosial di sebelah kanan */
+.footer-social {
+  /* Mendorong elemen ini ke kanan jika ada ruang */
+  margin-left: auto; 
+}
+
+.footer-social a {
+  color: var(--footer-text-color);
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Efek hover pada ikon */
+.footer-social a:hover {
+  color: var(--footer-link-hover-color);
+  transform: translateY(-2px); /* Memberi efek sedikit terangkat */
+}
+
+.footer-social svg {
+    fill: currentColor; /* SVG akan mewarisi warna dari parent 'a' nya */
+}
+
+
+/* Media Query untuk Desain Responsif */
+/* Perubahan ada di sini */
+@media (max-width: 768px) {
+  .footer-container {
+    /* Kami tidak lagi menggunakan flex-direction: column */
+    /* Sebaliknya, kami mengatur agar teks tetap di kiri dan ikon di kanan */
+    justify-content: space-between; 
+  }
+
+  .footer-text {
+    /* Mengambil ruang yang tersedia tetapi memungkinkan ikon untuk muat */
+    flex-grow: 1; 
+  }
+
+  .footer-social {
+    /* Memastikan ikon tidak terdorong ke baris baru */
+    flex-shrink: 0; 
+    margin-left: 1rem; /* Menambahkan sedikit jarak dari teks di layar kecil */
+  }
+}
+
+/* Media Query untuk layar yang sangat kecil */
+@media (max-width: 480px) {
+    .footer-container {
+        /* Di layar sangat kecil, kita bisa menyusunnya secara vertikal */
+        flex-direction: column;
+        align-items: center; /* Memusatkan semua item */
+        gap: 1.5rem;
+    }
+
+    .footer-text, .footer-social {
+        text-align: center;
+        margin-left: 0; /* Reset margin */
+    }
+}
