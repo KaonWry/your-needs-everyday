@@ -15,7 +15,9 @@ const Main_Content = () => {
   const [isMuted, setIsMuted] = useState(false);
   useEffect(() => {
     setFadeIn(true);
-    if (audioRef.current) {
+    if (audioRef.current) { 
+      //set initial volume to 0.5
+
       audioRef.current.play().catch((error) => {
         console.error("Error playing audio:", error);
       });
