@@ -185,7 +185,7 @@ const Main_Content = () => {
         </div>
       </section>
       <div className="h-[200vh]  bg-gradient-to-b from-[#626F47] to-[#222222] w-full"></div>
-      <div className="h-[600vh]  bg-[#222222] w-full"></div>
+      <div className="h-[400vh]  bg-[#222222] w-full"></div>
       <section className="sections h-screen bg-[#222222]">
         <div className="sections-content text-white">
           <p>
@@ -195,11 +195,65 @@ const Main_Content = () => {
       </section>
       <section className="sections h-screen bg-[#222222]">
         <div className="sections-content text-white">
+          <div className="pt-10"> <Image src="/cross.png" alt="You" width={500} height={500} /></div>
           <p>
             <q>Karena begitu besar kasih <strong><em>Allah</em></strong> akan dunia ini,
             <br></br> sehingga Ia telah mengaruniakan <strong><em>Anak-Nya</em></strong> yang tunggal,
             <br></br> supaya setiap orang yang percaya kepada-Nya <strong><em>tidak binasa</em></strong>, 
             <br></br>melainkan beroleh hidup yang <strong><em>KEKAL</em></strong>.</q>
+          </p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#222222]">
+        <div className="sections-content text-white">
+          <p>
+            Tuhan mengasihi kita, dan Ia mengutus Yesus untuk menebus dosa kita
+          </p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#222222]">
+        <div className="sections-content text-white">
+          <p>
+            Yesus mati di kayu salib untuk menebus <u>dosa</u> kita
+          </p>
+        </div>
+      </section>
+      <div className="h-[200vh]  bg-gradient-to-b from-[#222222] to-[#626F47] w-full"></div>
+      <section className="sections h-screen bg-[#626F47]">
+        <div className="sections-content text-white">
+            <div className="flex justify-center">
+          <p>
+            Artinya, kita sudah diselamatkan
+          </p>
+          <p>
+            
+          </p>
+          
+              
+            </div>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#626F47] flex items-center justify-center">
+        <div className="sections-content text-white text-left">
+            <div className="flex justify-between items-center">
+            <p>
+              ya, kan?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#626F47]">
+        <div className="sections-content text-white">
+          <p>
+            Nyatanya, kita sendiri yang tidak menerima kasih karunia-Nya
+          </p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#626F47]">
+        <div className="sections-content text-white">
+          <p>
+            Walaupun kita sudah diselamatkan, jika kita percaya bahwa kita sudah diselamatkan,
+            <br></br> tapi kita tidak mau menerima kasih karunia-Nya,
           </p>
         </div>
       </section>
