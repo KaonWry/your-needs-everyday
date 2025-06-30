@@ -22,6 +22,7 @@
   white-space: nowrap; /* Menjaga konten dalam satu baris */
   margin: 0 auto; /* Pusatkan jika diperlukan */
   letter-spacing: .1em; /* Jarak antar huruf */
+  padding-bottom: .1em; /* Ruang di bawah teks untuk kursor */
   animation: 
     typing 3s steps(40, end), /* Sesuaikan durasi dan steps sesuai panjang teks */
     blink-caret .75s step-end infinite;

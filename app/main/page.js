@@ -6,6 +6,7 @@ import Footer from "../components/footer";
 import { useState, useEffect, useRef } from "react";
 import "../text.css"; 
 import Navbar from "../components/Navbar";
+import TypewriterOnScroll from "../components/typewriter";
 
 const Main_Content = () => {
   const searchParams = useSearchParams();
