@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useState, useRef } from "react";
+import "./navbar.css";
 
 const Navbar = ({ isMuted, toggleMute, volume, setVolume }) => {
   const [showSlider, setShowSlider] = useState(false);
@@ -25,7 +26,7 @@ const Navbar = ({ isMuted, toggleMute, volume, setVolume }) => {
   };
 
   return (
-    <nav className="fixed bottom-0 w-full h-24 z-10">
+    <nav className="navbar-container fixed bottom-0 w-full h-24 z-10">
       <div className="flex items-center justify-between w-full h-full px-6">
         <div />
         <div className="flex items-center gap-4 relative">
@@ -37,7 +38,7 @@ const Navbar = ({ isMuted, toggleMute, volume, setVolume }) => {
           >
             <button
               onClick={toggleMute}
-              className="transition hover:scale-110"
+              className="navbar-icon-btn transition hover:scale-110"
               aria-label="Mute/Unmute"
               style={{ background: 'none', border: 'none', padding: 0, margin: 0 }}
             >
@@ -49,7 +50,7 @@ const Navbar = ({ isMuted, toggleMute, volume, setVolume }) => {
             </button>
             {showSlider && (
               <div
-                className="absolute bottom-12 right-0 flex flex-col items-center transition-opacity duration-300 opacity-100 pointer-events-auto bg-white rounded-lg shadow-lg p-2"
+                className="navbar-slider-popup absolute bottom-12 right-0 flex flex-col items-center transition-opacity duration-300 opacity-100 pointer-events-auto"
                 style={{ height: "120px", zIndex: 20 }}
               >
                 <input
@@ -77,16 +78,6 @@ const Navbar = ({ isMuted, toggleMute, volume, setVolume }) => {
           </div>
         </div>
       </div>
-      <style jsx>{`
-        .vertical-slider::-webkit-slider-thumb {
-          width: 24px;
-          height: 24px;
-        }
-        .vertical-slider {
-          appearance: slider-vertical;
-          writing-mode: vertical-lr;
-        }
-      `}</style>
     </nav>
   );
 };

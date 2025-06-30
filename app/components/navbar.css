@@ -1,0 +1,118 @@
+/* Navbar container */
+
+/* Mute/Unmute button */
+.navbar-icon-btn {
+  border: 2px solid #a4b465;
+  background: #ba9c50;
+  border-radius: 50%;
+  padding: 8px;
+  transition: box-shadow 0.2s, border-color 0.2s, background 0.2s;
+  box-shadow: 0 2px 8px 0 rgba(164, 180, 101, 0.08);
+}
+.navbar-icon-btn:hover {
+  border-color: #626f47;
+  background: #e6e6d6;
+  box-shadow: 0 4px 16px 0 rgba(164, 180, 101, 0.18);
+}
+
+/* Slider popup */
+.navbar-slider-popup {
+  background: #e4a9d4;
+  border: 2px solid #a4b465;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(164, 180, 101, 0.18);
+  padding: 16px 8px;
+  min-width: 48px;
+}
+
+/* Vertical slider */
+.vertical-slider {
+  appearance: slider-vertical;
+  writing-mode: vertical-lr;
+  width: 18px;
+  height: 100px;
+  background: linear-gradient(180deg, #a4b465 0%, #f5ecd5 100%);
+  border-radius: 12px;
+  border: 2px solid #a4b465;
+  box-shadow: 0 2px 8px 0 rgba(164, 180, 101, 0.12);
+  outline: none;
+  transition: border-color 0.2s;
+  /* Add for Chrome/Edge/Safari: */
+  --slider-fill: #a4b465;
+  --slider-bg: #f5ecd5;
+}
+.vertical-slider:focus {
+  border-color: #626f47;
+}
+.vertical-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #626f47;
+  border: 3px solid #a4b465;
+  box-shadow: 0 2px 8px 0 rgba(34, 34, 34, 0.18);
+  transition: background 0.2s, border-color 0.2s;
+  position: relative;
+  z-index: 2;
+}
+.vertical-slider:focus::-webkit-slider-thumb,
+.vertical-slider:hover::-webkit-slider-thumb {
+  background: #a4b465;
+  border-color: #626f47;
+}
+.vertical-slider::-webkit-slider-runnable-track {
+  height: 100px;
+  width: 18px;
+  background: #f5ecd5;
+  border-radius: 12px;
+}
+.vertical-slider::-webkit-slider-progress {
+  background: #a4b465;
+  border-radius: 12px;
+  width: 18px;
+}
+.vertical-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #626f47;
+  border: 3px solid #a4b465;
+  box-shadow: 0 2px 8px 0 rgba(34, 34, 34, 0.18);
+  transition: background 0.2s, border-color 0.2s;
+  position: relative;
+  z-index: 2;
+}
+.vertical-slider:focus::-webkit-slider-thumb,
+.vertical-slider:hover::-webkit-slider-thumb {
+  background: #a4b465;
+  border-color: #626f47;
+}
+/* Firefox */
+.vertical-slider::-moz-range-track {
+  background: #f5ecd5;
+  border-radius: 12px;
+  width: 18px;
+}
+.vertical-slider::-moz-range-progress {
+  background-color: #a4b465;
+  border-radius: 12px;
+  width: 18px;
+}
+/* IE/Edge */
+.vertical-slider::-ms-fill-lower {
+  background: #a4b465;
+}
+.vertical-slider::-ms-fill-upper {
+  background: #f5ecd5;
+}
+
+/* Hide outline for slider on click */
+.vertical-slider:focus {
+  outline: none;
+}
+
+/* For easy editing: change border, color, shadow, etc above! */
