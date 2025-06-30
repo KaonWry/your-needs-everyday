@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import Footer from "../components/footer";
 import { useState, useEffect, useRef } from "react";
-import "../text.css"; 
+import "../text.css";
 import Navbar from "../components/Navbar";
 
 const Main_Content = () => {
@@ -15,7 +15,7 @@ const Main_Content = () => {
   const [isMuted, setIsMuted] = useState(false);
   useEffect(() => {
     setFadeIn(true);
-    if (audioRef.current) { 
+    if (audioRef.current) {
       //set initial volume to 0.5
 
       audioRef.current.play().catch((error) => {
