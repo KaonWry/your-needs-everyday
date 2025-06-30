@@ -14,3 +14,33 @@
   from{text-shadow:0px 0px 5px #fff,0px 0px 5px #614ad3;}
   to{text-shadow:0px 0px 20px #fff,0px 0px 20px #614ad3;}
 }
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden; /* Pastikan teks tidak terlihat sebelum animasi selesai */
+  border-right: .15em solid orange; /* Kursor typewriter */
+  white-space: nowrap; /* Menjaga konten dalam satu baris */
+  margin: 0 auto; /* Pusatkan jika diperlukan */
+  letter-spacing: .1em; /* Jarak antar huruf */
+  padding-bottom: .1em; /* Ruang di bawah teks untuk kursor */
+  animation: 
+    typing 3s steps(40, end), /* Sesuaikan durasi dan steps sesuai panjang teks */
+    blink-caret .75s step-end infinite;
+}
+
+/* Animasi ketikan */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* Animasi kursor berkedip */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+/* Kelas untuk menyembunyikan elemen sebelum terlihat */
+.opacity-0 {
+  opacity: 0;
+}
