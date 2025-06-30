@@ -14,16 +14,25 @@ const Main_Content = () => {
   const [fadeIn, setFadeIn] = useState(false);
   const audioRef = useRef(null);
   const [isMuted, setIsMuted] = useState(false);
+  const [volume, setVolume] = useState(0.5);
+
   useEffect(() => {
     setFadeIn(true);
     if (audioRef.current) {
-      //set initial volume to 0.5
-
+      audioRef.current.volume = volume;
       audioRef.current.play().catch((error) => {
         console.error("Error playing audio:", error);
       });
     }
-  }, []);
+  }, [volume]);
+
+  // Sync audio volume with state
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.volume = volume;
+    }
+  }, [volume]);
+
   const toogleMute = () => {
     if (audioRef.current) {
       if (isMuted) {
@@ -38,13 +47,13 @@ const Main_Content = () => {
   // Volume control handlers
   const handleVolumeUp = () => {
     if (audioRef.current) {
-      audioRef.current.volume = Math.min(audioRef.current.volume + 0.1, 1);
+      setVolume((prevVolume) => Math.min(prevVolume + 0.1, 1));
     }
   };
 
   const handleVolumeDown = () => {
     if (audioRef.current) {
-      audioRef.current.volume = Math.max(audioRef.current.volume - 0.1, 0);
+      setVolume((prevVolume) => Math.max(prevVolume - 0.1, 0));
     }
   };
 
@@ -53,8 +62,8 @@ const Main_Content = () => {
       <Navbar
         isMuted={isMuted}
         toggleMute={toogleMute}
-        onVolumeUp={handleVolumeUp}
-        onVolumeDown={handleVolumeDown}
+        volume={volume}
+        setVolume={setVolume}
       />
       <audio
         ref={audioRef}
