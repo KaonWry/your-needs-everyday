@@ -8,6 +8,9 @@ const RandomFontText = ({ text }) => {
       "font-tangerine",
       "font-play",
       "font-noto",
+      "font-funnel",
+      "font-barrio",
+      "font-flower",
     ],
     []
   ); // Add more fonts here

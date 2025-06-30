@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="w-screen">
       <div className="footer">
         <div className="text-xl font-cabin">
-          <p>Thank you</p>
+          {/* <p>Thank you</p> */}
           <p>Inspired by : <span className="font-bold">I Was Wrong, But God Made Me Right</span></p>
           <p>Made with ❤️ by Kelompok 3</p>
           <p>

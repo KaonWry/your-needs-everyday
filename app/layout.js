@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Cabin, Caveat, Tangerine, Play, Noto_Sans_Javanese, Indie_Flower } from "next/font/google";
+import { Cabin, Caveat, Tangerine, Play, Noto_Sans_Javanese, Indie_Flower, Funnel_Display, Barrio} from "next/font/google";
 
 export const metadata = {
   title: "Your Needs Everyday",
@@ -37,6 +37,18 @@ const flower = Indie_Flower({
   subsets: ["latin"],
   weight: "400",
   variable: "--font-flower",
+});
+
+const funnel = Funnel_Display({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-funnel",
+});
+
+const barrio = Barrio({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-barrio",
 });
 
 export default function RootLayout({ children }) {
