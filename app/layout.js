@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Cabin, Caveat, Tangerine, Play, Noto_Sans_Javanese, Indie_Flower, Funnel_Display, Barrio} from "next/font/google";
+import { Cabin, Caveat, Tangerine, Play, Noto_Sans_Javanese, Indie_Flower, Funnel_Display, Barrio, Rock_Salt} from "next/font/google";
 
 export const metadata = {
   title: "Your Needs Everyday",
@@ -49,6 +49,12 @@ const barrio = Barrio({
   subsets: ["latin"],
   weight: "400",
   variable: "--font-barrio",
+});
+
+const rockSalt = Rock_Salt({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-rock-salt",
 });
 
 export default function RootLayout({ children }) {

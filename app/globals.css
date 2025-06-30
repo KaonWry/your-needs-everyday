@@ -26,6 +26,9 @@
   .font-flower {
     font-family: var(--font-flower);
   }
+  .font-rock-salt {
+    font-family: var(--font-rock-salt);
+  }
 }
 
 .sections {
