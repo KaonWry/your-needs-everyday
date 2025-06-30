@@ -397,8 +397,10 @@ const Main_Content = () => {
             Bapa, terima kasih untuk kasih karunia-Mu
             <br></br>yang selalu mengalir dalam hidupku.
             <br></br>Aku percaya bahwa Engkau adalah Tuhan dan Juruselamatku.
-            <br></br>Aku tahu bahwa aku salah dan berdosa dan aku butuh Engkau dalam hidupku.
-            <br></br>Terima kasih untuk Yesus yang sudah mati di kayu salib untuk menebus dosaku.
+            <br></br>Aku tahu bahwa aku salah dan berdosa 
+            <br></br>dan aku butuh Engkau dalam hidupku.
+            <br></br>Terima kasih untuk Yesus yang sudah mati di kayu salib 
+            <br></br>untuk menebus dosaku.
             <br></br>dan memberikan aku hidup yang kekal.
             <br></br>Terima kasih karena Engkau datang dan hidup dalam diriku
             <br></br>dan mengalir dalam hidupku.
@@ -406,7 +408,7 @@ const Main_Content = () => {
             <br></br>dan biarkan aku menjadi berkat bagi orang lain dan memuliakan nama-Mu.
             <br></br>Aku percaya bahwa Engkau adalah Tuhan dan Juruselamatku.
             <br></br>Dalam nama Yesus, aku berdoa, 
-            <br></br>Amin
+            <br></br><strong>Amin</strong>
           </TypewriterOnScroll>
         </div>
       </section>

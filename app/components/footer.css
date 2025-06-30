@@ -16,6 +16,8 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   padding: 2rem 1.5rem; /* Padding atas/bawah dan kiri/kanan */
   border-top: 1px solid #333;
+  position: relative;
+  z-index: 50;
 }
 
 /* Kontainer utama di dalam footer untuk mengatur layout */
@@ -109,4 +111,9 @@
         text-align: center;
         margin-left: 0; /* Reset margin */
     }
+}
+
+.footer-container, .footer-text, .footer-social, .footer-social a, .footer-social svg {
+  pointer-events: auto !important;
+  z-index: 51;
 }
