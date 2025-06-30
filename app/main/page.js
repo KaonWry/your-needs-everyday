@@ -4,7 +4,8 @@ import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import Footer from "../components/footer";
 import { useState, useEffect, useRef } from "react";
-import "../text.css"; // Import your custom CSS for text animations
+import "../text.css"; 
+import Navbar from "../components/Navbar";
 
 const Main_Content = () => {
   const searchParams = useSearchParams();
@@ -14,7 +15,7 @@ const Main_Content = () => {
   const [isMuted, setIsMuted] = useState(false);
   useEffect(() => {
     setFadeIn(true);
-    if (audioRef.current) { 
+    if (audioRef.current) {
       audioRef.current.play().catch((error) => {
         console.error("Error playing audio:", error);
       });
@@ -29,14 +30,15 @@ const Main_Content = () => {
       }
       setIsMuted(!isMuted);
     }
-  }
+  };
 
   return (
     <div>
-      <audio 
-        ref={audioRef} 
+      <Navbar isMuted={isMuted} toggleMute={toogleMute} />
+      <audio
+        ref={audioRef}
         src="/What-A-Beautiful-Name.mp3" // Ganti dengan nama file audio Anda
-        loop 
+        loop
         autoPlay
         muted={isMuted}
       >
@@ -120,7 +122,7 @@ const Main_Content = () => {
           </p>
         </div>
       </section>
-      <div className=" h-[200vh] h-screen bg-gradient-to-b from-[#F5ECD5] to-[#A4B465] w-full"></div>
+      <div className="h-screen bg-gradient-to-b from-[#F5ECD5] to-[#A4B465] w-full"></div>
       <section className="sections h-screen bg-[#A4B465]">
         <div className="sections-content">
           <p>Tapi ... </p>

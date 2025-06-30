@@ -1,5 +1,3 @@
-// components/Footer.js
-
 import React from 'react';
 import './footer.css'; // Pastikan path ini sesuai dengan struktur folder Anda
 
