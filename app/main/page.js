@@ -15,6 +15,8 @@ const Main_Content = () => {
   useEffect(() => {
     setFadeIn(true);
     if (audioRef.current) { 
+      //set initial volume to 0.5
+
       audioRef.current.play().catch((error) => {
         console.error("Error playing audio:", error);
       });
