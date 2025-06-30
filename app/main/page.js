@@ -257,6 +257,78 @@ const Main_Content = () => {
           </p>
         </div>
       </section>
+      <section className="sections h-screen bg-[#626F47]">
+        <div className="sections-content text-white">
+          <p>
+            Tuhan tinggal dalam kita, Dia menaruh <strong>keran</strong> kehidupan-Nya dalam diri kita
+            <br></br>
+            hingga meluap dan keluar
+          </p>
+          <Image src="/7.png" alt="You" width={500} height={500} />
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#626F47]">
+        <div className="sections-content text-white">
+          <p>
+            Tapi, masih ada beberapa cangkir <br></br>yang tidak mau menerima-Nya dan mengakui keselamatan-Nya
+          </p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#626F47]">
+        <div className="sections-content text-white">
+          <Image src="/8.png" alt="You" width={500} height={500} />
+          <p>
+            Lihat, masih ada beberapa cangkir yang tidak mau menerimanya
+          </p>
+        </div>
+      </section>
+      <div className="h-[200vh]  bg-gradient-to-b from-[#626F47] to-[#222222] w-full"></div>
+      <section className="sections h-screen bg-[#222222]">
+        <div className="sections-content text-white">
+          <p>
+            Lalu, bagaimana caranya agar kita bisa menerima kasih karunia-Nya?
+          </p>
+        </div>
+      </section>
+      <div className="h-[200vh]  bg-gradient-to-b from-[#222222] to-[#FDFAF6] w-full"></div>
+      <section className="sections h-screen bg-[#FDFAF6]">
+        <div className="sections-content text-black">
+          <p>
+            Kalau begitu, luangkan waktu sejenak untuk merenungkan
+            <br></br>apa yang sudah Tuhan lakukan dalam hidupmu
+          </p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#FDFAF6]">
+        <div className="sections-content text-black">
+          <p>
+            Cari tempat ternyamanmu dan mari kita berdoa
+          </p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#FDFAF6]">
+        <div className="sections-content text-black">
+          <p>
+            Bapa, terima kasih untuk kasih karunia-Mu
+            <br></br>yang selalu mengalir dalam hidupku
+            Aku percaya bahwa Engkau adalah Tuhan dan Juruselamatku
+            <br></br>Aku tahu bahwa aku salah dan berdosa dan aku butuh Engkau dalam hidupku
+            <br></br>Terima kasih untuk Yesus yang sudah mati di kayu salib
+            <br></br>untuk menebus dosaku
+            <br></br>dan memberikan aku hidup yang kekal
+            Terima kasih karena Engkau datang dan hidup dalam diriku
+            <br></br>dan mengalir dalam hidupku
+            <br></br>Penuhi aku dengan kasih karunia-Mu,
+            <br></br>kebaikan-Mu, dan kasih-Mu
+            <br></br>dan biarkan aku menjadi berkat bagi orang lain
+            <br></br>dan memuliakan nama-Mu
+            <br></br>Aku percaya bahwa Engkau adalah Tuhan
+            <br></br>dan Juruselamatku
+            <br></br>dalam nama Yesus, aku berdoa
+            <br></br>Amin
+          </p>
+        </div>
+      </section>
       <Footer />
     </div>
   );
