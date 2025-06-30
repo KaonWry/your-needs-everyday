@@ -1,38 +1,41 @@
-# Tugas akhir matkul agama
+# Tugas Akhir Mata Kuliah Agama
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+Ini adalah proyek web interaktif yang dibuat menggunakan [Next.js](https://nextjs.org) dan Tailwind CSS sebagai tugas akhir mata kuliah Agama kami di Universitas Negeri Jakarta. Aplikasi ini dirancang untuk memberikan pengalaman reflektif dan inspiratif melalui berbagai fitur, tampilan modern, serta interaksi audio-visual.
 
-## Getting Started
+## Deskripsi Proyek
 
-First, run the development server:
+Website ini menampilkan halaman utama dengan animasi, efek suara, dan beberapa bagian (section) yang dapat di-scroll. Pengguna dapat memasukkan nama, mengatur volume audio, serta menikmati tampilan visual yang dinamis. Seluruh desain dan fitur dibuat untuk mendukung tema spiritualitas dan refleksi sesuai dengan nilai-nilai mata kuliah Agama.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Cara Menjalankan
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Pastikan Node.js dan npm sudah terpasang di komputer Anda.
+2. Jalankan perintah berikut di terminal untuk memulai server pengembangan:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+   ```bash
+   npm install
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Buka [http://localhost:3000](http://localhost:3000) di browser untuk melihat hasilnya.
 
-## Learn More
+## Fitur Utama
 
-To learn more about Next.js, take a look at the following resources:
+- Input nama pengguna
+- Navigasi dan footer interaktif
+- Kontrol audio (mute/unmute, volume)
+- Efek animasi dan transisi
+- Responsif untuk berbagai ukuran layar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Teknologi yang Digunakan
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js
+- React
+- Tailwind CSS
 
-## Deploy on Vercel
+## Catatan
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Proyek ini dibuat khusus untuk memenuhi tugas akhir mata kuliah Agama. Silakan gunakan dan kembangkan sesuai kebutuhan pembelajaran.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Terima kasih telah mengunjungi dan mencoba aplikasi ini!

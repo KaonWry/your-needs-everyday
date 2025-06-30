@@ -3,7 +3,7 @@ import RandomFontText from "../components/randomfonts";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import Footer from "../components/footer";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, Suspense } from "react";
 import "../text.css";
 import Navbar from "../components/Navbar";
 import TypewriterOnScroll from "../components/typewriter";
@@ -457,4 +457,10 @@ const Main_Content = () => {
   );
 };
 
-export default Main_Content;
+export default function MainPageWithSuspense() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <Main_Content />
+    </Suspense>
+  );
+}
