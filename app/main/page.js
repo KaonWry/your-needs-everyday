@@ -35,9 +35,27 @@ const Main_Content = () => {
     }
   };
 
+  // Volume control handlers
+  const handleVolumeUp = () => {
+    if (audioRef.current) {
+      audioRef.current.volume = Math.min(audioRef.current.volume + 0.1, 1);
+    }
+  };
+
+  const handleVolumeDown = () => {
+    if (audioRef.current) {
+      audioRef.current.volume = Math.max(audioRef.current.volume - 0.1, 0);
+    }
+  };
+
   return (
     <div>
-      <Navbar isMuted={isMuted} toggleMute={toogleMute} />
+      <Navbar
+        isMuted={isMuted}
+        toggleMute={toogleMute}
+        onVolumeUp={handleVolumeUp}
+        onVolumeDown={handleVolumeDown}
+      />
       <audio
         ref={audioRef}
         src="/What-A-Beautiful-Name.mp3" // Ganti dengan nama file audio Anda
