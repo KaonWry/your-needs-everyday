@@ -17,6 +17,15 @@
   .font-noto {
     font-family: var(--font-noto);
   }
+  .font-funnel {
+    font-family: var(--font-funnel);
+  }
+  .font-barrio {
+    font-family: var(--font-barrio);
+  }
+  .font-flower {
+    font-family: var(--font-flower);
+  }
 }
 
 .sections {
@@ -25,6 +34,43 @@
 
 .sections-content {
   @apply h-full w-full flex flex-col items-center justify-center text-center gap-3;
+}
+
+.image-container {
+  @apply flex items-center justify-center h-full w-full;
+}
+
+.custom-animated-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-animated-btn .animated-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: #000;
+  border-radius: inherit;
+  z-index: 0;
+  transition: width 1000ms ease-in-out;
+}
+
+.custom-animated-btn:hover .animated-bg,
+.custom-animated-btn:focus .animated-bg {
+  width: 100%;
+}
+
+.custom-animated-btn .relative.z-10 {
+  position: relative;
+  z-index: 1;
+  transition: color 1000ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.custom-animated-btn:hover .relative.z-10,
+.custom-animated-btn:focus .relative.z-10 {
+  color: #fff;
 }
 
 .footer {
@@ -41,3 +87,5 @@
 .text:hover {
   color: #ff6347;
 }
+
+
