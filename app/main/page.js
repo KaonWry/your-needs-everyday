@@ -3,18 +3,45 @@ import RandomFontText from "../components/randomfonts";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import Footer from "../components/footer";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import "../text.css"; // Import your custom CSS for text animations
 
 const Main_Content = () => {
   const searchParams = useSearchParams();
   const inputValue = searchParams.get("name") || "";
   const [fadeIn, setFadeIn] = useState(false);
+  const audioRef = useRef(null);
+  const [isMuted, setIsMuted] = useState(false);
   useEffect(() => {
     setFadeIn(true);
+    if (audioRef.current) { 
+      audioRef.current.play().catch((error) => {
+        console.error("Error playing audio:", error);
+      });
+    }
   }, []);
+  const toogleMute = () => {
+    if (audioRef.current) {
+      if (isMuted) {
+        audioRef.current.muted = false;
+      } else {
+        audioRef.current.muted = true;
+      }
+      setIsMuted(!isMuted);
+    }
+  }
+
   return (
     <div>
+      <audio 
+        ref={audioRef} 
+        src="/What-A-Beautiful-Name.mp3" // Ganti dengan nama file audio Anda
+        loop 
+        autoPlay
+        muted={isMuted}
+      >
+        Browser Anda tidak mendukung elemen audio.
+      </audio>
       <section className="sections h-screen bg-[#F5ECD5]">
         <div
           className={`sections-content transition-opacity duration-1000 ${
