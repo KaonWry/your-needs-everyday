@@ -57,6 +57,7 @@ const Main_Content = () => {
     }
   };
 
+
   return (
     <div>
       <Navbar
@@ -410,6 +411,28 @@ const Main_Content = () => {
             <br></br>Dalam nama Yesus, aku berdoa, 
             <br></br><strong>Amin</strong>
           </TypewriterOnScroll>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#FDFAF6]">
+        <div className="sections-content text-black">
+          <TypewriterOnScroll>
+            Yey, kamu sudah benar dan Yesus tinggal di dalam kamu
+          </TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Dia akan memberi kamu apa yang kamu butuhkan
+          </TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Dia akan mencukupi segala kebutuhanmu
+          </TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Tetap dekat dengan Tuhan, dan biarkan Dia mengalir dalam hidupmu!!
+          </TypewriterOnScroll>
+          <Image
+            src="/6.png"
+            alt="You"
+            width={500}
+            height={500}
+            className="mx-auto mt-10"/>
         </div>
       </section>
       <section
