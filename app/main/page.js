@@ -384,8 +384,9 @@ const Main_Content = () => {
       <section
         className="sections min-h-screen bg-cover bg-center bg-no-repeat w-full flex items-center justify-center"
         style={{
+          opacity:0.8,
           backgroundImage: "url('/the-end.png')",
-          backgroundSize: "contain",
+          backgroundSize: "full",
           backgroundPosition: "center",
         }}
       >
