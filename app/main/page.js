@@ -354,6 +354,22 @@ const Main_Content = () => {
           </TypewriterOnScroll>
         </div>
       </section>
+      <section
+        className="sections min-h-screen bg-cover bg-center bg-no-repeat w-full flex items-center justify-center"
+        style={{
+          backgroundImage: "url('/the-end.png')",
+          backgroundSize: "contain",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="sections-content flex items-center justify-center w-full h-full">
+          <TypewriterOnScroll>
+            <span className="text-white text-4xl font-bold drop-shadow-lg text-center">
+              Sampai jumpa, Tuhan memberkati!
+            </span>
+          </TypewriterOnScroll>
+        </div>
+      </section>
       <Footer />
     </div>
   );
