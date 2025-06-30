@@ -138,10 +138,10 @@ const Main_Content = () => {
           <p>Kita mulai mengisi diri kita dengan hal yang tidak baik</p>
         </div>
       </section>
-      {/* /*ini bagian taruh gambar yang kekayaan yang 5.png */ }
+      {/* /*ini bagian taruh gambar yang kekayaan yang 5.png */}
       <section className="sections h-screen bg-[#A4B465]">
         <div className="sections-content">
-          <Image src="/5.png" alt="You" width={800} height={800}/>
+          <Image src="/5.png" alt="You" width={800} height={800} />
           <p>
             kekayaan, hawa nafsu, kesenangan duniawi, dan hal-hal yang tidak
             baik lainnya
@@ -150,32 +150,21 @@ const Main_Content = () => {
       </section>
       <section className="sections h-screen bg-[#A4B465]">
         <div className="sections-content">
-        <Image
-            src="/3.png"
-            alt="You"
-            width={500}
-            height={500}
-          />
-          <p>
-            Bahkan, kita sendiri yang tidak mau menerima air tersebut
-          </p>
+          <Image src="/3.png" alt="You" width={500} height={500} />
+          <p>Bahkan, kita sendiri yang tidak mau menerima air tersebut</p>
         </div>
       </section>
       <section className="sections h-screen bg-[#A4B465]">
         <div className="sections-content">
-          <p>
-            Semakin lama, kita semakin menjauh dari Tuhan
-          </p>
+          <p>Semakin lama, kita semakin menjauh dari Tuhan</p>
         </div>
       </section>
       <section className="sections h-screen bg-[#A4B465]">
         <div className="sections-content">
-          <p>
-            Hingga, kita merasa tidak ada ...
-          </p>
+          <p>Hingga, kita merasa tidak ada ...</p>
         </div>
       </section>
-        <div className="h-[200vh]  bg-gradient-to-b from-[#A4B465] to-[#626F47] w-full"></div>
+      <div className="h-[200vh]  bg-gradient-to-b from-[#A4B465] to-[#626F47] w-full"></div>
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content">
           <div className="glowtext">
@@ -183,27 +172,23 @@ const Main_Content = () => {
           </div>
         </div>
       </section>
-        <div className="h-[200vh]  bg-[#626F47] w-full"></div>
+      <div className="h-[200vh]  bg-[#626F47] w-full"></div>
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content">
-          <p>
-            Itulah dosa kita, yang menjadikan kita jauh dari Tuhan
-          </p>
-        </div>
-      </section>
-      <section className="sections h-screen bg-[#626F47]">
-        <div className="sections-content">
-      
-          <p>
-            Keran yang mengalir itu sekarang hanya pajangan yang tertutup oleh pagar <strong>DOSA</strong> kita
-          </p>
+          <p>Itulah dosa kita, yang menjadikan kita jauh dari Tuhan</p>
         </div>
       </section>
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content">
           <p>
-            Hilang, tidak ada
+            Keran yang mengalir itu sekarang hanya pajangan yang tertutup oleh
+            pagar <strong>DOSA</strong> kita
           </p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#626F47]">
+        <div className="sections-content">
+          <p>Hilang, tidak ada</p>
         </div>
       </section>
       <section className="sections h-screen bg-[#626F47]">
@@ -217,19 +202,37 @@ const Main_Content = () => {
       <div className="h-[400vh]  bg-[#222222] w-full"></div>
       <section className="sections h-screen bg-[#222222]">
         <div className="sections-content text-white">
-          <p>
-            Tapi, Tuhan berfirman dalam Alkitab
-          </p>
+          <p>Tapi, Tuhan berfirman dalam Alkitab</p>
         </div>
       </section>
       <section className="sections h-screen bg-[#222222]">
         <div className="sections-content text-white">
-          <div className="pt-10"> <Image src="/cross.png" alt="You" width={500} height={500} /></div>
+          <div className="pt-10">
+            {" "}
+            <Image src="/cross.png" alt="You" width={500} height={500} />
+          </div>
           <p>
-            <q>Karena begitu besar kasih <strong><em>Allah</em></strong> akan dunia ini,
-            <br></br> sehingga Ia telah mengaruniakan <strong><em>Anak-Nya</em></strong> yang tunggal,
-            <br></br> supaya setiap orang yang percaya kepada-Nya <strong><em>tidak binasa</em></strong>, 
-            <br></br>melainkan beroleh hidup yang <strong><em>KEKAL</em></strong>.</q>
+            <q>
+              Karena begitu besar kasih{" "}
+              <strong>
+                <em>Allah</em>
+              </strong>{" "}
+              akan dunia ini,
+              <br></br> sehingga Ia telah mengaruniakan{" "}
+              <strong>
+                <em>Anak-Nya</em>
+              </strong>{" "}
+              yang tunggal,
+              <br></br> supaya setiap orang yang percaya kepada-Nya{" "}
+              <strong>
+                <em>tidak binasa</em>
+              </strong>
+              ,<br></br>melainkan beroleh hidup yang{" "}
+              <strong>
+                <em>KEKAL</em>
+              </strong>
+              .
+            </q>
           </p>
         </div>
       </section>
@@ -250,38 +253,29 @@ const Main_Content = () => {
       <div className="h-[200vh]  bg-gradient-to-b from-[#222222] to-[#626F47] w-full"></div>
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content text-white">
-            <div className="flex justify-center">
-          <p>
-            Artinya, kita sudah diselamatkan
-          </p>
-          <p>
-            
-          </p>
-          
-              
-            </div>
+          <div className="flex justify-center">
+            <p>Artinya, kita sudah diselamatkan...</p>
+            <p></p>
+          </div>
         </div>
       </section>
       <section className="sections h-screen bg-[#626F47] flex items-center justify-center">
         <div className="sections-content text-white text-left">
-            <div className="flex justify-between items-center">
-            <p>
-              ya, kan?
-            </p>
+          <div className="flex justify-between items-center">
+            <p>...ya, kan?</p>
           </div>
         </div>
       </section>
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content text-white">
-          <p>
-            Nyatanya, kita sendiri yang tidak menerima kasih karunia-Nya
-          </p>
+          <p>Nyatanya, kita sendiri yang tidak menerima kasih karunia-Nya</p>
         </div>
       </section>
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content text-white">
           <p>
-            Walaupun kita sudah diselamatkan, jika kita percaya bahwa kita sudah diselamatkan,
+            Walaupun kita sudah diselamatkan, jika kita percaya bahwa kita sudah
+            diselamatkan,
             <br></br> tapi kita tidak mau menerima kasih karunia-Nya,
           </p>
         </div>
@@ -289,7 +283,8 @@ const Main_Content = () => {
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content text-white">
           <p>
-            Tuhan tinggal dalam kita, Dia menaruh <strong>keran</strong> kehidupan-Nya dalam diri kita
+            Tuhan tinggal dalam kita, Dia menaruh <strong>keran</strong>{" "}
+            kehidupan-Nya dalam diri kita
             <br></br>
             hingga meluap dan keluar
           </p>
@@ -299,16 +294,15 @@ const Main_Content = () => {
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content text-white">
           <p>
-            Tapi, masih ada beberapa cangkir <br></br>yang tidak mau menerima-Nya dan mengakui keselamatan-Nya
+            Tapi, masih ada beberapa cangkir <br></br>yang tidak mau
+            menerima-Nya dan mengakui keselamatan-Nya
           </p>
         </div>
       </section>
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content text-white">
           <Image src="/8.png" alt="You" width={500} height={500} />
-          <p>
-            Lihat, masih ada beberapa cangkir yang tidak mau menerimanya
-          </p>
+          <p>Lihat, masih ada beberapa cangkir yang tidak mau menerimanya</p>
         </div>
       </section>
       <div className="h-[200vh]  bg-gradient-to-b from-[#626F47] to-[#222222] w-full"></div>
@@ -330,22 +324,21 @@ const Main_Content = () => {
       </section>
       <section className="sections h-screen bg-[#FDFAF6]">
         <div className="sections-content text-black">
-          <p>
-            Cari tempat ternyamanmu dan mari kita berdoa
-          </p>
+          <p>Cari tempat ternyamanmu dan mari kita berdoa</p>
         </div>
       </section>
       <section className="sections h-screen bg-[#FDFAF6]">
         <div className="sections-content text-black">
           <p>
             Bapa, terima kasih untuk kasih karunia-Mu
-            <br></br>yang selalu mengalir dalam hidupku
-            Aku percaya bahwa Engkau adalah Tuhan dan Juruselamatku
-            <br></br>Aku tahu bahwa aku salah dan berdosa dan aku butuh Engkau dalam hidupku
+            <br></br>yang selalu mengalir dalam hidupku Aku percaya bahwa Engkau
+            adalah Tuhan dan Juruselamatku
+            <br></br>Aku tahu bahwa aku salah dan berdosa dan aku butuh Engkau
+            dalam hidupku
             <br></br>Terima kasih untuk Yesus yang sudah mati di kayu salib
             <br></br>untuk menebus dosaku
-            <br></br>dan memberikan aku hidup yang kekal
-            Terima kasih karena Engkau datang dan hidup dalam diriku
+            <br></br>dan memberikan aku hidup yang kekal Terima kasih karena
+            Engkau datang dan hidup dalam diriku
             <br></br>dan mengalir dalam hidupku
             <br></br>Penuhi aku dengan kasih karunia-Mu,
             <br></br>kebaikan-Mu, dan kasih-Mu
