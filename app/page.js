@@ -79,6 +79,16 @@ export default function Home() {
         <div className="sections-content">
           <Image src="/1.png" alt="You" width={500} height={500} />
         </div>
+        </section>
+      <section className="sections h-screen bg-[#F5ECD5]">
+        <div className="sections-content">
+          <p>Kamu adalah cangkir yang sebenarnya sudah terisi air</p>
+        </div>
+      </section>
+      <section className="sections h-screen bg-[#F5ECD5]">
+        <div className="sections-content">
+          <p>Tapi dari mana?</p>
+        </div>
       </section>
       <Footer />
     </main>
