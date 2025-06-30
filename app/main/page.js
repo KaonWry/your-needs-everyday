@@ -88,12 +88,16 @@ const Main_Content = () => {
       </section>
       <section className="sections h-screen bg-[#F5ECD5]">
         <div className="sections-content">
-          <TypewriterOnScroll>Apakah kamu merasa ada yang kurang dalam hidupmu?</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Apakah kamu merasa ada yang kurang dalam hidupmu?
+          </TypewriterOnScroll>
         </div>
       </section>
       <section className="sections h-screen bg-[#F5ECD5]">
         <div className="sections-content">
-          <TypewriterOnScroll>Atau kamu merasa ada yang salah dalam</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Atau kamu merasa ada yang salah dalam
+          </TypewriterOnScroll>
         </div>
       </section>
       {/* klo g butuh gradient ini hapus aja */}
@@ -107,17 +111,23 @@ const Main_Content = () => {
       <div className="bg-gradient-to-b from-[#222222] to-[#F5ECD5] h-[200vh] w-full"></div>
       <section className="sections h-screen bg-[#F5ECD5]">
         <div className="sections-content">
-          <TypewriterOnScroll>Di sini, kamu akan mempelajari sesuatu yang baru</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Di sini, kamu akan mempelajari sesuatu yang baru
+          </TypewriterOnScroll>
         </div>
       </section>
       <section className="sections h-screen bg-[#F5ECD5]">
         <div className="sections-content">
-          <TypewriterOnScroll>Sesuatu yang akan kamu syukuri</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Sesuatu yang akan kamu syukuri
+          </TypewriterOnScroll>
         </div>
       </section>
       <section className="sections h-screen bg-[#F5ECD5]">
         <div className="sections-content">
-          <TypewriterOnScroll>Sesuatu yang tidak akan kamu sesali</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Sesuatu yang tidak akan kamu sesali
+          </TypewriterOnScroll>
         </div>
       </section>
       <section className="sections h-screen bg-[#F5ECD5]">
@@ -131,7 +141,9 @@ const Main_Content = () => {
 
       <section className="sections h-screen bg-[#F5ECD5]">
         <div className="sections-content">
-          <TypewriterOnScroll>Kamu adalah cangkir yang sebenarnya sudah terisi air</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Kamu adalah cangkir yang sebenarnya sudah terisi air
+          </TypewriterOnScroll>
         </div>
       </section>
       <section className="sections h-screen bg-[#F5ECD5]">
@@ -141,7 +153,9 @@ const Main_Content = () => {
       </section>
       <section className="sections h-[150vh] bg-[#F5ECD5]">
         <div className="sections-content">
-          <TypewriterOnScroll>Dari keran Tuhan yang tak pernah habis mengalir!!</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Dari keran Tuhan yang tak pernah habis mengalir!!
+          </TypewriterOnScroll>
           <TypewriterOnScroll>Lihat ini !!</TypewriterOnScroll>
           <div className="pt-10">
             <Image src="/2.png" alt="You" width={1000} height={1000} />
@@ -165,7 +179,9 @@ const Main_Content = () => {
       </section>
       <section className="sections h-screen bg-[#A4B465]">
         <div className="sections-content">
-          <TypewriterOnScroll>Kita mulai mengisi diri kita dengan hal yang tidak baik</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Kita mulai mengisi diri kita dengan hal yang tidak baik
+          </TypewriterOnScroll>
         </div>
       </section>
       {/* /*ini bagian taruh gambar yang kekayaan yang 5.png */}
@@ -181,17 +197,23 @@ const Main_Content = () => {
       <section className="sections h-screen bg-[#A4B465]">
         <div className="sections-content">
           <Image src="/3.png" alt="You" width={500} height={500} />
-          <TypewriterOnScroll>Bahkan, kita sendiri yang tidak mau menerima air tersebut</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Bahkan, kita sendiri yang tidak mau menerima air tersebut
+          </TypewriterOnScroll>
         </div>
       </section>
       <section className="sections h-screen bg-[#A4B465]">
         <div className="sections-content">
-          <TypewriterOnScroll>Semakin lama, kita semakin menjauh dari Tuhan</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Semakin lama, kita semakin menjauh dari Tuhan
+          </TypewriterOnScroll>
         </div>
       </section>
       <section className="sections h-screen bg-[#A4B465]">
         <div className="sections-content">
-          <TypewriterOnScroll>Hingga, kita merasa tidak ada ...</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Hingga, kita merasa tidak ada ...
+          </TypewriterOnScroll>
         </div>
       </section>
       <div className="h-[200vh]  bg-gradient-to-b from-[#A4B465] to-[#626F47] w-full"></div>
@@ -205,7 +227,9 @@ const Main_Content = () => {
       <div className="h-[200vh]  bg-[#626F47] w-full"></div>
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content">
-          <TypewriterOnScroll>Itulah dosa kita, yang menjadikan kita jauh dari Tuhan</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Itulah dosa kita, yang menjadikan kita jauh dari Tuhan
+          </TypewriterOnScroll>
         </div>
       </section>
       <section className="sections h-screen bg-[#626F47]">
@@ -232,7 +256,9 @@ const Main_Content = () => {
       <div className="h-[400vh]  bg-[#222222] w-full"></div>
       <section className="sections h-screen bg-[#222222]">
         <div className="sections-content text-white">
-          <TypewriterOnScroll>Tapi, Tuhan berfirman dalam Alkitab</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Tapi, Tuhan berfirman dalam Alkitab
+          </TypewriterOnScroll>
         </div>
       </section>
       <section className="sections h-screen bg-[#222222]">
@@ -284,7 +310,9 @@ const Main_Content = () => {
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content text-white">
           <div className="flex justify-center">
-            <TypewriterOnScroll>Artinya, kita sudah diselamatkan...</TypewriterOnScroll>
+            <TypewriterOnScroll>
+              Artinya, kita sudah diselamatkan...
+            </TypewriterOnScroll>
             <TypewriterOnScroll></TypewriterOnScroll>
           </div>
         </div>
@@ -298,7 +326,9 @@ const Main_Content = () => {
       </section>
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content text-white">
-          <TypewriterOnScroll>Nyatanya, kita sendiri yang tidak menerima kasih karunia-Nya</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Nyatanya, kita sendiri yang tidak menerima kasih karunia-Nya
+          </TypewriterOnScroll>
         </div>
       </section>
       <section className="sections h-screen bg-[#626F47]">
@@ -332,7 +362,9 @@ const Main_Content = () => {
       <section className="sections h-screen bg-[#626F47]">
         <div className="sections-content text-white">
           <Image src="/8.png" alt="You" width={500} height={500} />
-          <TypewriterOnScroll>Lihat, masih ada beberapa cangkir yang tidak mau menerimanya</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Lihat, masih ada beberapa cangkir yang tidak mau menerimanya
+          </TypewriterOnScroll>
         </div>
       </section>
       <div className="h-[200vh]  bg-gradient-to-b from-[#626F47] to-[#222222] w-full"></div>
@@ -354,44 +386,41 @@ const Main_Content = () => {
       </section>
       <section className="sections h-screen bg-[#FDFAF6]">
         <div className="sections-content text-black">
-          <TypewriterOnScroll>Cari tempat ternyamanmu dan mari kita berdoa</TypewriterOnScroll>
+          <TypewriterOnScroll>
+            Cari tempat ternyamanmu dan mari kita berdoa
+          </TypewriterOnScroll>
         </div>
       </section>
       <section className="sections h-screen bg-[#FDFAF6]">
         <div className="sections-content text-black">
           <TypewriterOnScroll>
             Bapa, terima kasih untuk kasih karunia-Mu
-            <br></br>yang selalu mengalir dalam hidupku Aku percaya bahwa Engkau
-            adalah Tuhan dan Juruselamatku
-            <br></br>Aku tahu bahwa aku salah dan berdosa dan aku butuh Engkau
-            dalam hidupku
-            <br></br>Terima kasih untuk Yesus yang sudah mati di kayu salib
-            <br></br>untuk menebus dosaku
-            <br></br>dan memberikan aku hidup yang kekal Terima kasih karena
-            Engkau datang dan hidup dalam diriku
-            <br></br>dan mengalir dalam hidupku
-            <br></br>Penuhi aku dengan kasih karunia-Mu,
-            <br></br>kebaikan-Mu, dan kasih-Mu
-            <br></br>dan biarkan aku menjadi berkat bagi orang lain
-            <br></br>dan memuliakan nama-Mu
-            <br></br>Aku percaya bahwa Engkau adalah Tuhan
-            <br></br>dan Juruselamatku
-            <br></br>dalam nama Yesus, aku berdoa
+            <br></br>yang selalu mengalir dalam hidupku.
+            <br></br>Aku percaya bahwa Engkau adalah Tuhan dan Juruselamatku.
+            <br></br>Aku tahu bahwa aku salah dan berdosa dan aku butuh Engkau dalam hidupku.
+            <br></br>Terima kasih untuk Yesus yang sudah mati di kayu salib untuk menebus dosaku.
+            <br></br>dan memberikan aku hidup yang kekal.
+            <br></br>Terima kasih karena Engkau datang dan hidup dalam diriku
+            <br></br>dan mengalir dalam hidupku.
+            <br></br>Penuhi aku dengan kasih karunia-Mu, kebaikan-Mu, dan kasih-Mu,
+            <br></br>dan biarkan aku menjadi berkat bagi orang lain dan memuliakan nama-Mu.
+            <br></br>Aku percaya bahwa Engkau adalah Tuhan dan Juruselamatku.
+            <br></br>Dalam nama Yesus, aku berdoa, 
             <br></br>Amin
           </TypewriterOnScroll>
         </div>
       </section>
       <section
-        className="sections min-h-screen bg-cover bg-center bg-no-repeat w-full flex items-center justify-center"
+        className="sections h-screen bg-cover bg-center bg-no-repeat w-full flex items-center justify-center"
         style={{
           backgroundImage: "url('/the-end.png')",
-          backgroundSize: "contain",
+          backgroundSize: "cover", // changed from "contain" to "cover"
           backgroundPosition: "center",
         }}
       >
         <div className="sections-content flex items-center justify-center w-full h-full">
           <TypewriterOnScroll>
-            <span className="text-white text-4xl font-bold drop-shadow-lg text-center">
+            <span className="text-white text-4xl font-bold drop-shadow-lg text-center outline-solid outline-offset-2 outline-2 outline-black">
               Sampai jumpa, Tuhan memberkati!
             </span>
           </TypewriterOnScroll>
