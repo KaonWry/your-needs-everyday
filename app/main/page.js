@@ -435,6 +435,20 @@ const Main_Content = () => {
             className="mx-auto mt-10"/>
         </div>
       </section>
+      <section className="sections h-screen bg-[#FDFAF6]">
+        <div className="sections-content text-black">
+          <h1>Untuk melengkapi hidupmu,</h1>
+          <TypewriterOnScroll>
+            kamu bisa mengunjungi website ini
+          </TypewriterOnScroll>
+          <Image
+            src="/qr.png"
+            alt="QR Code"
+            width={300}
+            height={300}
+            className="mx-auto mt-10"/>
+        </div>
+      </section>
       <section
         className="sections h-screen bg-cover bg-center bg-no-repeat w-full flex items-center justify-center"
         style={{

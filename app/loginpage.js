@@ -35,6 +35,9 @@ return (
               Masukkan nama sebelum mengakses websitenya 😁
             </p>
             <div className="mt-4" />
+            <div className="caution">
+              <p>*Diharapkan menggunakan laptop atau PC untuk pengalaman terbaik</p>
+            </div>
             <input
               type="text"
               className="border border-white-xl bg-white text-lg text-black rounded-3xl px-4 py-1"
